@@ -1,0 +1,30 @@
+.monitor-container{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.card-container{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.keterangan-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: .8rem;
+}
+.icon{
+width: 30px;
+}
+.view-selector{
+  border-radius: 10px;
+  height: fit-content;
+  border: 2px solid var(--main-color);
+  background-color: var(--dark-gray-bg);
+  color: white;
+}
+option{
+  border: 2px solid var(--main-color);
+  background-color: var(--dark-gray-bg);
+  color: white;
+}

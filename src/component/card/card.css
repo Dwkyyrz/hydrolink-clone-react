@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: var(--dark-gray-bg);
+  height: 100px;
+}
+.card> .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--light-gray-bg);
+}
+
+.result-container > .card {
+  /* background: var(--main-color-tr3); */
+  border: 2px solid var(--main-color);
+  height: auto;
+  gap: 1rem;
+}
+.result{
+  color: green;
+}

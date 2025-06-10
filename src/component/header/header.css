@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: antiquewhite; */
+  align-items: center;
+  width: 100%;
+}
+header > .about {
+  font-size: 20px;
+}
+
+header > h6 {
+  margin-bottom: 3px;
+}
+header > p {
+  font-size: 13px;
+}
+header > p > span {
+  color: var(--main-color);
+}
